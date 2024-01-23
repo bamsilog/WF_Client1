@@ -67,18 +67,41 @@ footer {
 
 /*Catalog Page*/
 #catalogbuttons {
-    margin-left:100px;
-    margin-top:20px;
-    margin-bottom:250px;
+    margin-left:150px;
+    margin-top:70px;
+    margin-bottom:230px;
 }
+
 #catalogtitle {
-    margin-top: 220px;
+    margin-top: 140px;
+    margin-left: 640px;
+    font-size: 4rem;
+}
+.catalogtext{
+    margin-left:5px;
+    font-size: 2rem;
+}
+.catalogtext2 {
+
+    font-size: 2rem;
+}
+.catalogtext3 {
+    font-size: 2rem;
+    margin-left:-40px;
+}
+.catalogtext4 {
+    font-size: 2rem;
+    margin-left: -50px;
+}
+.catalogtext5 {
+    font-size: 2rem;
+    margin-left: -20px;
 }
 .filebutton {
     background: url('https://api.iconify.design/mdi/file.svg') no-repeat center center / contain;
     background-color: lightgray;
-    width: 70px; 
-    height: 70px; 
+    width: 74px; 
+    height: 74px; 
 
     border: none;
     text-indent: -9999px; 
@@ -87,8 +110,8 @@ footer {
 .salesbutton {
     background: url('https://api.iconify.design/icon-park-solid/sales-report.svg') no-repeat center center / contain;
     background-color: lightgray;
-    width: 70px; 
-    height: 70px;
+    width: 75px; 
+    height: 75px;
 
     border: none;
     text-indent: -9999px; 
@@ -97,8 +120,8 @@ footer {
 .collectionsbutton {
     background: url('https://api.iconify.design/ic/baseline-collections.svg') no-repeat center center / contain;
     background-color: lightgray;
-    width: 70px; 
-    height: 70px; 
+    width: 75px; 
+    height: 75px; 
 
     border: none;
     text-indent: -9999px; 
@@ -107,8 +130,8 @@ footer {
 .accountingbutton {
     background: url('https://api.iconify.design/map/accounting.svg') no-repeat center center / contain;
     background-color: lightgray;
-    width: 70px; 
-    height: 70px; 
+    width: 75px; 
+    height: 75px;
 
     border: none;
     text-indent: -9999px; 
@@ -117,8 +140,8 @@ footer {
 .reportsbutton {
     background: url('https://api.iconify.design/iconoir/reports-solid.svg') no-repeat center center / contain;
     background-color: lightgray;
-    width: 70px;
-    height: 70px; 
+    width: 75px;
+    height: 75px; 
 
     border: none;
     text-indent: -9999px;
@@ -137,18 +160,18 @@ footer {
 /*Specific page*/
 .buttonContainer {
     text-align: right;
-    margin-top: 50px;
-    margin-right: 50px;
+
+    margin-right: 10px;
+    margin-top: 40px;
 }
 .closebutton {
-    background: url('https://api.iconify.design/material-symbols/close.svg') no-repeat center center / contain;
-    background-color: lightgray;
-    width: 25px;
-    height: 25px; 
-
+    background: url('https://api.iconify.design/icon-park-solid/back.svg') no-repeat center center / contain;
+    background-color: white;
+    width: 35px;
+    height: 35px;
     border: none;
-    text-indent: -9999px; 
-    border-radius: 15px;
+    text-indent: -9999px;
+    border-radius: 10px;
 }
 
 #specificcatalog {
@@ -164,7 +187,7 @@ footer {
     margin-bottom: 250px;
 }
 .custom-column-spacing {
-    margin-right: 50px; 
+    margin-right: 40px; 
 
 }
 #firstrow{
@@ -185,4 +208,7 @@ footer {
 
 .btn-custom.active svg {
     color: white !important;
+}
+.nav-item {
+    text-align: left !important;
 }

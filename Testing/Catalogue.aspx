@@ -14,7 +14,7 @@
     
     <form id="form1" runat="server">
         <div>
-            <div id="catalogtitle"><center><h1>Catalog</h1></center></div>
+            <div id="catalogtitle">Catalog</div>
              
         <div id="catalogbuttons" class="container mt-10" draggable="true" contenteditable="true">
             <div class="row mx-auto" >
@@ -23,27 +23,27 @@
             <div class="col-2">
 
                 <asp:Button runat="server" CssClass="filebutton" OnClick="Filesredirectiom" />
-                <h6>Files</h6>
+                <h6 class="catalogtext">Files</h6>
             </div>
             <div class="col-2">
                 <asp:Button runat="server" CssClass="salesbutton" OnClick="Salesredirectiom" />
-                <h6>Sales</h6>
+                <h6 class="catalogtext2">Sales</h6>
             </div>
             <div class="col-2">
                 <asp:Button runat="server" CssClass="collectionsbutton"  />
-                <h6 >Collections</h6>
+                <h6 class="catalogtext3">Collections</h6>
             </div>
             <div class="col-2">
                 <asp:Button runat="server" CssClass="accountingbutton"  />
-                <h6 >Accounting</h6>
+                <h6 class="catalogtext4">Accounting</h6>
             </div>
             <div class="col-2">
                 <asp:Button runat="server" CssClass="reportsbutton" />
-                <h6 >Reports</h6>
+                <h6 class="catalogtext5">Reports</h6>
             </div>
             <div class="col-2">
                 <asp:Button runat="server" CssClass="settingsbutton" />
-                <h6 >Settings</h6>
+                <h6 class="catalogtext5">Settings</h6>
 
 
             </div>

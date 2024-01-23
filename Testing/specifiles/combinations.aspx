@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <div class="card" style="width: 70rem; height:35rem;">
+            <div class="card" style="width: 80rem; height:32rem;">
               <div class="card-body">
                                <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="m12 1.148l6.16 9.602H5.84zm0 3.704L9.5 8.75h5zM2 13h9v9H2zm2 2v5h5v-5zm13.5 0a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5M13 17.5a4.5 4.5 0 1 1 9 0a4.5 4.5 0 0 1-9 0"/></svg> Controlled Combinations</h5>
                 <div class="row">
