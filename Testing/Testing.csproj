@@ -102,6 +102,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="specifiles\combinations.aspx" />
+    <Content Include="specifiles\active.aspx" />
     <Content Include="Catalogue.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -182,12 +184,29 @@
     <Content Include="Site.Master" />
     <Content Include="Specificsales.aspx" />
     <Content Include="Specificfile.aspx" />
+    <Content Include="specifiles\highcombi.aspx" />
+    <Content Include="specifiles\lowcombi.aspx" />
+    <Content Include="specifiles\salrep.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="specifiles\combinations.aspx.cs">
+      <DependentUpon>combinations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="specifiles\combinations.aspx.designer.cs">
+      <DependentUpon>combinations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="specifiles\active.aspx.cs">
+      <DependentUpon>active.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="specifiles\active.aspx.designer.cs">
+      <DependentUpon>active.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Catalogue.aspx.cs">
@@ -235,6 +254,27 @@
     </Compile>
     <Compile Include="Specificfile.aspx.designer.cs">
       <DependentUpon>Specificfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="specifiles\highcombi.aspx.cs">
+      <DependentUpon>highcombi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="specifiles\highcombi.aspx.designer.cs">
+      <DependentUpon>highcombi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="specifiles\lowcombi.aspx.cs">
+      <DependentUpon>lowcombi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="specifiles\lowcombi.aspx.designer.cs">
+      <DependentUpon>lowcombi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="specifiles\salrep.aspx.cs">
+      <DependentUpon>salrep.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="specifiles\salrep.aspx.designer.cs">
+      <DependentUpon>salrep.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
