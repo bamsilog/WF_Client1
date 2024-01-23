@@ -4,7 +4,7 @@
 
     <main>
         <section class="row mb-40" aria-labelledby="aspnetTitle">
-            <h1 id="aspnetTitle">Welcome Back</h1>
+            <h1 id="aspnetTitle">STL Management System Web</h1>
         </section>
 
         <div class="row mb-40" id="loginsection">
@@ -14,7 +14,7 @@
                       <div class="card-body">
                         <h5 class="card-title" id="logintitle">Login</h5>
                         
-                        <h6 class="exempt">Email:</h6>
+                        <h6 class="exempt">Username:</h6>
                         <input class="input " id="emailfield" type="email" name="email" placeholder="Email" >
                           <br />
                         <h6 class="exempt">Password:</h6>
