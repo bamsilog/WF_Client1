@@ -160,15 +160,14 @@ footer {
 /*Specific page*/
 .buttonContainer {
     text-align: right;
+    margin-left: 1250px;
 
-    margin-right: 10px;
-    margin-top: 40px;
 }
 .closebutton {
     background: url('https://api.iconify.design/icon-park-solid/back.svg') no-repeat center center / contain;
-    background-color: white;
-    width: 35px;
-    height: 35px;
+    background-color: none;
+    width: 40px;
+    height: 40px;
     border: none;
     text-indent: -9999px;
     border-radius: 10px;
@@ -194,7 +193,9 @@ footer {
     margin-bottom: 20px;
 }
 
-
+#content{
+    padding-top:50px;
+}
 
  .btn-light {
     background-color: lightgray !important;
@@ -211,4 +212,11 @@ footer {
 }
 .nav-item {
     text-align: left !important;
+}
+#sidettons{
+    padding-bottom: 103px;
+}
+#site-logo {
+    border: none !important;
+
 }
