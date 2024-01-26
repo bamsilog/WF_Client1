@@ -96,6 +96,16 @@ footer {
 .catalogtext5 {
     font-size: 2rem;
     margin-left: -20px;
+    margin-top: -10px
+}
+.catalogtext6 {
+    font-size: 2rem;
+    margin-left: -10px;
+}
+.catalogtext7 {
+    font-size: 2rem;
+    margin-left: -20px;
+
 }
 .filebutton {
     background: url('https://api.iconify.design/mdi/file.svg') no-repeat center center / contain;
@@ -182,7 +192,7 @@ footer {
 }
 #catalogbuttons2 {
     margin-left: -100px;
-
+    border: none !important;
     margin-bottom: 250px;
 }
 .custom-column-spacing {
@@ -199,7 +209,6 @@ footer {
 
  .btn-light {
     background-color: lightgray !important;
-    border-color: blue !important;
 }
 
 .btn-custom.active {
@@ -213,10 +222,16 @@ footer {
 .nav-item {
     text-align: left !important;
 }
-#sidettons{
+#sidettons {
     padding-bottom: 103px;
+    background-color: lightgray !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 #site-logo {
     border: none !important;
-
+    
+}
+custom-column-spacing{
+    margin-right:20px;
 }

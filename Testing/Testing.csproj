@@ -102,6 +102,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="image\I.t.png" />
     <Content Include="image\istockphoto-1147544807-612x612.jpg" />
     <Content Include="specifiles\combinations.aspx" />
     <Content Include="specifiles\active.aspx" />
