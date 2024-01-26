@@ -23,7 +23,8 @@
             <div class="col-2">
 
                 <asp:Button runat="server" CssClass="filebutton" OnClick="Filesredirectiom" />
-                <h6 class="catalogtext">Files</h6>
+                    <h6 class="catalogtext6">Game </h6>
+                    <h6 class="catalogtext5">Settings</h6>
             </div>
             <div class="col-2">
                 <asp:Button runat="server" CssClass="salesbutton" OnClick="Salesredirectiom" />
@@ -39,12 +40,11 @@
             </div>
             <div class="col-2">
                 <asp:Button runat="server" CssClass="reportsbutton" />
-                <h6 class="catalogtext5">Reports</h6>
+                <h6 class="catalogtext7">Reports</h6>
             </div>
             <div class="col-2">
                 <asp:Button runat="server" CssClass="settingsbutton" />
-                <h6 class="catalogtext5">Settings</h6>
-
+                <h6 class="catalogtext7">Settings</h6>
 
             </div>
 
